@@ -1,0 +1,12 @@
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: HelmRepository
+metadata:
+  name: eotmrahacr
+  namespace: flux-system
+spec:
+  interval: 1m0s
+  secretRef:
+    name: acr
+  url: https://eotmrahacr.azurecr.io/helm/v1/repo/
+
