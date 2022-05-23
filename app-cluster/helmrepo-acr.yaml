@@ -2,7 +2,7 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: HelmRepository
 metadata:
-  name: eotmrahacr1
+  name: eotmrahacr
   namespace: flux-system
 spec:
   interval: 1m0s
