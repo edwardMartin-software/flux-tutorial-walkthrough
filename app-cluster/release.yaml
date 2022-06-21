@@ -6,7 +6,7 @@ metadata:
 spec: 
   kubeConfig:
     secretref:
-	  name: azure-kubeconfig
+      name: azure-kubeconfig
   chart:
     spec:
       chart: prometheus
