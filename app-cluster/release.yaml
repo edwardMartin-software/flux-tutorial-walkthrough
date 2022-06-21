@@ -4,9 +4,7 @@ metadata:
   name: test-hello-world 
   namespace: flux-system
 spec: 
-  kubeConfig:
-    secretref:
-      name: azure-kubeconfig
+  kubeConfig: azure-kubeconfig
   chart:
     spec:
       chart: prometheus
