@@ -2,7 +2,7 @@ apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease 
 metadata: 
   name: test-hello-world 
-  namespace: flux-system
+  namespace: remote
 spec:
   interval: 1m
   kubeConfig: 
