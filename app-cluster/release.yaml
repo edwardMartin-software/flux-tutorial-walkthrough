@@ -3,7 +3,8 @@ kind: HelmRelease
 metadata: 
   name: test-hello-world 
   namespace: flux-system
-spec: 
+spec:
+  interval: 1m
   kubeConfig: 
     secretRef:
       name: azure-kubeconfig
